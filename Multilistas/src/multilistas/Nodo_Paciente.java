@@ -10,7 +10,7 @@ package multilistas;
  * @author leona
  */
 public class Nodo_Paciente {
-    long cedula;
+    int cedula;
     String nombre;
     String enfermedad;
     String clinica;
@@ -18,7 +18,7 @@ public class Nodo_Paciente {
     Nodo_Paciente Llink;
     Nodo_Paciente Rlink;
     
-    public Nodo_Paciente(long cedula,String nombre,String e,String c,String sex){
+    public Nodo_Paciente(int cedula,String nombre,String e,String c,String sex){
         this.cedula=cedula;
         this.nombre=nombre;
         this.enfermedad=e;

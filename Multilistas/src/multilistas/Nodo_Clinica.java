@@ -13,7 +13,7 @@ public class Nodo_Clinica {
     String nombre;
     String direccion;
     int telefono;
-    Nodo_Paciente ptrClinica;
+    Nodo_Paciente ptrPacientes;
     Nodo_Clinica link;
 
     public Nodo_Clinica(String nombre, String direccion, int telefono) {
@@ -21,7 +21,7 @@ public class Nodo_Clinica {
         this.direccion = direccion;
         this.telefono = telefono;
         link=null;
-        ptrClinica=null;
+        ptrPacientes=null;
     }
     
     
